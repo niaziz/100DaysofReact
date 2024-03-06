@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countdown {
+  transform: translateY(30vh);
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.timer-wrapper {
+  transform: translateY(10px);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-size: 20px;
+}
+
+.timer-item {
+  padding: 1.5rem;
+  font-size: 1rem;
+}
